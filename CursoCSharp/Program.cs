@@ -5,6 +5,8 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp {
     class Program {
@@ -58,6 +60,27 @@ namespace CursoCSharp {
 
                 // Coleções
                 {"Array - Coleções" , Colecoes.Array.Executar},
+                {"List - Coleções" , ColecoesList.Executar},
+                {"Array List - Coleções" , ColecoesArrayList.Executar},
+                {"Set - Coleções" , ColecoesSet.Executar},
+                {"Queue - Coleções" , ColecoesQueue.Executar},
+
+                //OO
+                {"Herança - OO" , Heranca.Executar},
+                {"Construtor This - OO" , ConstrutorThis.Executar},
+                {"Encapsulamento - OO" , OO.Encapsulamento.Executar},
+                {"Polimorfismo - OO" , Polimorfismo.Executar},
+                {"Abstract - OO" , Abstract.Executar},
+                {"Interface - OO" , Interface.Executar},
+                {"Sealed - OO" , Sealed.Executar},
+
+                // Metodos & Funções
+                {"Exemplo Lambda - Metodos & Funções" , ExemploLambda.Executar},
+                {"Lambdas Delegate - Metodos & Funções" , LambdasDelegate.Executar},
+                {"Usando Delegate - Metodos & Funções" , UsandoDelegate.Executar},
+                {"Delegate com Funções Anonimas - Metodos & Funções" , DelegateFuncAnonima.Executar},
+                {"Delegate com Parametros - Metodos & Funções" , DelegatesComParametros.Executar},
+                {"Metodos de Extensão - Metodos & Funções" , MetodosDeExtensao.Executar},
             });
 
             central.SelecionarEExecutar();
